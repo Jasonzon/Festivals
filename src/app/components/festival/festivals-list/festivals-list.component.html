@@ -1,0 +1,17 @@
+<h1>Festivals list</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Tables</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let festival of festivals">
+            <td>{{festival.name}}</td>
+            <td>{{festival.tables}}</td>
+            <td>{{festival.price}}</td>
+        </tr>
+    </tbody>
+</table>
